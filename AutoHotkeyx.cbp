@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AutoHotkeyx" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release(minimal) Win32">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Debug Win32">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release(mbcs) Win32">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Self-contained(mbcs) x64">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Self-contained x64">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release(mbcs) x64">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release(minimal) x64">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Debug(mbcs) Win32">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Self-contained(mbcs) Win32">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Self-contained(minimal) Win32">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Debug x64">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release x64">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Self-contained(debug) x64">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Self-contained Win32">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release Win32">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Self-contained(minimal) x64">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Debug(mbcs) x64">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Self-contained(debug) Win32">
+				<Option output="AutoHotkeyx" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="source/AutoHotkey.cpp" />
+		<Unit filename="source/Debugger.cpp" />
+		<Unit filename="source/Debugger.h" />
+		<Unit filename="source/KuString.h" />
+		<Unit filename="source/SimpleHeap.cpp" />
+		<Unit filename="source/SimpleHeap.h" />
+		<Unit filename="source/StringConv.cpp" />
+		<Unit filename="source/StringConv.h" />
+		<Unit filename="source/TextIO.cpp" />
+		<Unit filename="source/TextIO.h" />
+		<Unit filename="source/WinGroup.cpp" />
+		<Unit filename="source/WinGroup.h" />
+		<Unit filename="source/ahkversion.h" />
+		<Unit filename="source/application.cpp" />
+		<Unit filename="source/application.h" />
+		<Unit filename="source/clipboard.cpp" />
+		<Unit filename="source/clipboard.h" />
+		<Unit filename="source/config.h" />
+		<Unit filename="source/debug.h" />
+		<Unit filename="source/defines.h" />
+		<Unit filename="source/globaldata.cpp" />
+		<Unit filename="source/globaldata.h" />
+		<Unit filename="source/hook.cpp" />
+		<Unit filename="source/hook.h" />
+		<Unit filename="source/hotkey.cpp" />
+		<Unit filename="source/hotkey.h" />
+		<Unit filename="source/keyboard_mouse.cpp" />
+		<Unit filename="source/keyboard_mouse.h" />
+		<Unit filename="source/lib_pcre/pcre/pcre.h" />
+		<Unit filename="source/lib_pcre/pcre/pcret.h" />
+		<Unit filename="source/mt19937ar-cok.cpp" />
+		<Unit filename="source/mt19937ar-cok.h" />
+		<Unit filename="source/os_version.cpp" />
+		<Unit filename="source/os_version.h" />
+		<Unit filename="source/qmath.h" />
+		<Unit filename="source/resources/AutoHotkey.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="source/resources/icon_filetype.ico" />
+		<Unit filename="source/resources/icon_main.ico" />
+		<Unit filename="source/resources/icon_pause.ico" />
+		<Unit filename="source/resources/icon_pause_suspend.ico" />
+		<Unit filename="source/resources/icon_suspend.ico" />
+		<Unit filename="source/resources/icon_tray_win9x.ico" />
+		<Unit filename="source/resources/icon_tray_win9x_suspend.ico" />
+		<Unit filename="source/resources/resource.h" />
+		<Unit filename="source/script.cpp" />
+		<Unit filename="source/script.h" />
+		<Unit filename="source/script2.cpp" />
+		<Unit filename="source/script_autoit.cpp" />
+		<Unit filename="source/script_com.cpp" />
+		<Unit filename="source/script_com.h" />
+		<Unit filename="source/script_expression.cpp" />
+		<Unit filename="source/script_func_impl.h" />
+		<Unit filename="source/script_gui.cpp" />
+		<Unit filename="source/script_menu.cpp" />
+		<Unit filename="source/script_object.cpp" />
+		<Unit filename="source/script_object.h" />
+		<Unit filename="source/script_object_bif.cpp" />
+		<Unit filename="source/script_registry.cpp" />
+		<Unit filename="source/stdafx.cpp" />
+		<Unit filename="source/stdafx.h" />
+		<Unit filename="source/util.cpp" />
+		<Unit filename="source/util.h" />
+		<Unit filename="source/var.cpp" />
+		<Unit filename="source/var.h" />
+		<Unit filename="source/window.cpp" />
+		<Unit filename="source/window.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

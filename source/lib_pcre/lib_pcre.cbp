@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lib_pcre" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release(minimal) Win32">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Debug Win32">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release(mbcs) Win32">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release(mbcs) x64">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release(minimal) x64">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Debug(mbcs) Win32">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Debug x64">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release x64">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release Win32">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Debug(mbcs) x64">
+				<Option output="lib_pcre" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="pcre/config.h" />
+		<Unit filename="pcre/pcre16_chartables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_compile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_exec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_fullinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_get.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_globals.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_jit_compile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_newline.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_ord2utf16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_refcount.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_string_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_study.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_tables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_ucd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_valid_utf16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre16_xclass.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_chartables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_compile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_exec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_fullinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_get.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_globals.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_internal.h" />
+		<Unit filename="pcre/pcre_jit_compile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_newline.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_ord2utf8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_refcount.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_string_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_study.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_tables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_ucd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pcre/pcre_xclass.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
